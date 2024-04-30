@@ -1,0 +1,77 @@
+/*Table Styling*/
+.custom-table-view {
+    -fx-background-color: transparent;
+    -fx-border-color: transparent;
+    -fx-border-radius: 10;
+    -fx-background-radius: 10;
+}
+
+.custom-table-view .column-header-background {
+    -fx-background-color: linear-gradient(from 0% 0% to 100% 100%, purple, skyblue);
+}
+
+.custom-table-view .column-header .label {
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+}
+
+.custom-table-view .table-row-cell {
+    -fx-background-color: lightgrey;
+    -fx-border-color: darkgrey;
+    -fx-table-cell-border-color: darkgrey;
+}
+
+.custom-table-view .table-row-cell:filled:selected {
+    -fx-background-color: lightgrey; /* Adjust if you want a different color for selected rows */
+    -fx-table-cell-border-color: darkgrey;
+}
+
+.custom-table-view .table-row-cell .table-cell {
+    -fx-text-fill: black;
+}
+
+.custom-table-view .table-row-cell:odd {
+    -fx-background-color: #f3f3f3; /* Slightly different shade for zebra stripes, if desired */
+}
+
+.custom-table-view .table-row-cell:even {
+    -fx-background-color: lightgrey;
+}
+
+.custom-table-view .table-row-cell:filled:odd, .custom-table-view .table-row-cell:filled:even {
+    -fx-border-width: 0 0 1 0;
+    -fx-border-color: darkgrey;
+}
+
+
+
+#rootPane {
+    -fx-background-color: linear-gradient(to right, grey, green);
+}
+
+#loginBox {
+    -fx-background-color: white;
+    -fx-border-radius: 10;
+    -fx-background-radius: 10;
+    -fx-padding: 20;
+    -fx-alignment: center;
+}
+
+#loginLabel {
+    -fx-font-size: 20px;
+    -fx-text-fill: black;
+}
+
+#instructionLabel {
+    -fx-text-fill: darkgrey;
+}
+
+.text-field {
+    -fx-border-color: darkgrey;
+}
+
+.button {
+    -fx-background-color: purple;
+    -fx-text-fill: white;
+}
+
